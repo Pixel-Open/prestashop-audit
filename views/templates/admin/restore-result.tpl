@@ -1,0 +1,2 @@
+{if $restore_result.synchronization_warning}<p class="alert alert-warning">{l s='The data was restored, but product synchronization failed. Check the diagnostics before continuing.' d='Modules.Pixelaudit.Admin'}</p>{/if}
+<p class="alert alert-success">{l s='Restoration completed - new operation #%id%. Reload the product before making further changes.' sprintf=['%id%' => $restore_result.operation] d='Modules.Pixelaudit.Admin'}</p>

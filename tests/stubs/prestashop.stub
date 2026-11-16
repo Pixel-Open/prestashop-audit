@@ -1,0 +1,12 @@
+<?php
+
+class ObjectModel
+{
+    public const TYPE_INT = 1;
+    public const TYPE_BOOL = 2;
+    public const TYPE_STRING = 3;
+    public const TYPE_FLOAT = 4;
+    public const TYPE_HTML = 6;
+    /** @return array<string, mixed> */
+    public static function getDefinition(string $class): array {}
+}

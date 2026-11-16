@@ -1,0 +1,6 @@
+/dist/
+/tools/vendor/
+/tools/.*cache*
+/tools/.phpstan/
+/.idea/
+/config_*.xml

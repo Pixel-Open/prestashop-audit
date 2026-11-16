@@ -1,0 +1,1 @@
+<p class="pixel-audit-diff-legend"><span class="pixel-audit-diff-removed"><span aria-hidden="true">-</span> {l s='Removed' d='Modules.Pixelaudit.Admin'}</span><span class="pixel-audit-diff-added"><span aria-hidden="true">+</span> {l s='Added' d='Modules.Pixelaudit.Admin'}</span><span>{l s='Unchanged text is not highlighted.' d='Modules.Pixelaudit.Admin'}</span></p>

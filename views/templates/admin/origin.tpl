@@ -1,0 +1,1 @@
+{if $audit_origin == 'backoffice'}{l s='Back office' d='Modules.Pixelaudit.Admin'}{elseif $audit_origin == 'cli'}{l s='Command line' d='Modules.Pixelaudit.Admin'}{else}{$audit_origin|escape:'html':'UTF-8'}{/if}

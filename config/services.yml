@@ -1,0 +1,21 @@
+services:
+  pixel_audit.command.purge:
+    class: Pixel\Module\Audit\Command\PurgeCommand
+    tags:
+      - { name: console.command }
+
+  pixel_audit.configuration:
+    class: Pixel\Module\Audit\Configuration\ConfigurationDecorator
+    decorates: PrestaShop\PrestaShop\Adapter\Configuration
+    arguments:
+      - '@pixel_audit.configuration.inner'
+
+  pixel_audit.product_assets:
+    class: Pixel\Module\Audit\EventSubscriber\ProductAssetsSubscriber
+    tags:
+      - { name: kernel.event_subscriber }
+
+  pixel_audit.employee_login:
+    class: Pixel\Module\Audit\EventSubscriber\EmployeeLoginSubscriber
+    tags:
+      - { name: kernel.event_subscriber }

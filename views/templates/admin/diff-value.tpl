@@ -1,0 +1,3 @@
+{strip}
+<pre class="pixel-audit-diff">{foreach $audit_fragments as $fragment}{if $fragment.changed}{if $audit_diff_side == 'before'}<del class="pixel-audit-diff-removed">{else}<ins class="pixel-audit-diff-added">{/if}{/if}{if $fragment.kind == 'empty'}<span class="pixel-audit-diff-placeholder">{l s='Empty' d='Modules.Pixelaudit.Admin'}</span>{elseif $fragment.kind == 'null'}<span class="pixel-audit-diff-placeholder" aria-label="{l s='Null value' d='Modules.Pixelaudit.Admin'}">∅</span>{else}{$fragment.text|escape:'html':'UTF-8'}{/if}{if $fragment.changed}{if $audit_diff_side == 'before'}</del>{else}</ins>{/if}{/if}{/foreach}</pre>
+{/strip}

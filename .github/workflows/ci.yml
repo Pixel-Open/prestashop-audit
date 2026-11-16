@@ -1,0 +1,36 @@
+name: Quality checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['8.1', '8.2', '8.3', '8.4']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: pdo_mysql, mbstring, dom, xml, xmlwriter, zip
+          coverage: none
+      - run: composer install --working-dir=tools --no-interaction --prefer-dist
+      - run: composer check --working-dir=tools
+      - run: find pixel_audit.php src controllers upgrade examples tests -name '*.php' -print0 | xargs -0 -n1 php -l
+      - run: php tools/build.php
+      - uses: actions/upload-artifact@v4
+        if: matrix.php == '8.1'
+        with:
+          name: pixel_audit
+          path: dist/pixel_audit.zip
+  # Real shops: installs the module in a disposable PrestaShop and runs tests/Integration.
+  integration:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        prestashop: ['8.2.9-8.1-nginx', '9.1.5-8.4-nginx']
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash tools/integration.sh ${{ matrix.prestashop }}

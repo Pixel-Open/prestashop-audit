@@ -1,0 +1,1382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="pixel_audit" source-language="en" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id=" - explicit value defined">
+        <source> - explicit value defined</source>
+        <target> - explicit value defined</target>
+      </trans-unit>
+      <trans-unit id=" - reference">
+        <source> - reference</source>
+        <target> - reference</target>
+      </trans-unit>
+      <trans-unit id=" - value #">
+        <source> - value #</source>
+        <target> - value #</target>
+      </trans-unit>
+      <trans-unit id="(event #">
+        <source>(event #</source>
+        <target>(event #</target>
+      </trans-unit>
+      <trans-unit id=", combination #">
+        <source>, combination #</source>
+        <target>, combination #</target>
+      </trans-unit>
+      <trans-unit id=", event #">
+        <source>, event #</source>
+        <target>, event #</target>
+      </trans-unit>
+      <trans-unit id=". Check PHP logs for details. This message retains the last known error.">
+        <source>. Check PHP logs for details. This message retains the last known error.</source>
+        <target>. Check PHP logs for details. This message retains the last known error.</target>
+      </trans-unit>
+      <trans-unit id=". Global fields affect all listed shops; shop fields and translations only affect the source event shop.">
+        <source>. Global fields affect all listed shops; shop fields and translations only affect the source event shop.</source>
+        <target>. Global fields affect all listed shops; shop fields and translations only affect the source event shop.</target>
+      </trans-unit>
+      <trans-unit id=". Source event shop:">
+        <source>. Source event shop:</source>
+        <target>. Source event shop:</target>
+      </trans-unit>
+      <trans-unit id=": global values shared across shops.">
+        <source>: global values shared across shops.</source>
+        <target>: global values shared across shops.</target>
+      </trans-unit>
+      <trans-unit id="A historical value no longer meets the current product validation rules.">
+        <source>A historical value no longer meets the current product validation rules.</source>
+        <target>A historical value no longer meets the current product validation rules.</target>
+      </trans-unit>
+      <trans-unit id="A null value cannot be restored for this field.">
+        <source>A null value cannot be restored for this field.</source>
+        <target>A null value cannot be restored for this field.</target>
+      </trans-unit>
+      <trans-unit id="A product column or translation is unavailable.">
+        <source>A product column or translation is unavailable.</source>
+        <target>A product column or translation is unavailable.</target>
+      </trans-unit>
+      <trans-unit id="A product update override requires a dedicated restoration integration.">
+        <source>A product update override requires a dedicated restoration integration.</source>
+        <target>A product update override requires a dedicated restoration integration.</target>
+      </trans-unit>
+      <trans-unit id="A selected field cannot be restored.">
+        <source>A selected field cannot be restored.</source>
+        <target>A selected field cannot be restored.</target>
+      </trans-unit>
+      <trans-unit id="A selected field is shared: access to every associated product shop is required.">
+        <source>A selected field is shared: access to every associated product shop is required.</source>
+        <target>A selected field is shared: access to every associated product shop is required.</target>
+      </trans-unit>
+      <trans-unit id="Accessories">
+        <source>Accessories</source>
+        <target>Accessories</target>
+      </trans-unit>
+      <trans-unit id="Active">
+        <source>Active</source>
+        <target>Active</target>
+      </trans-unit>
+      <trans-unit id="Address">
+        <source>Address</source>
+        <target>Address</target>
+      </trans-unit>
+      <trans-unit id="Addresses">
+        <source>Addresses</source>
+        <target>Addresses</target>
+      </trans-unit>
+      <trans-unit id="Affected shops:">
+        <source>Affected shops:</source>
+        <target>Affected shops:</target>
+      </trans-unit>
+      <trans-unit id="After">
+        <source>After</source>
+        <target>After</target>
+      </trans-unit>
+      <trans-unit id="All actions">
+        <source>All actions</source>
+        <target>All actions</target>
+      </trans-unit>
+      <trans-unit id="All families">
+        <source>All families</source>
+        <target>All families</target>
+      </trans-unit>
+      <trans-unit id="All objects">
+        <source>All objects</source>
+        <target>All objects</target>
+      </trans-unit>
+      <trans-unit id="Allow orders for out-of-stock products">
+        <source>Allow orders for out-of-stock products</source>
+        <target>Allow orders for out-of-stock products</target>
+      </trans-unit>
+      <trans-unit id="Amount">
+        <source>Amount</source>
+        <target>Amount</target>
+      </trans-unit>
+      <trans-unit id="An error occurred. Check the audit diagnostics.">
+        <source>An error occurred. Check the audit diagnostics.</source>
+        <target>An error occurred. Check the audit diagnostics.</target>
+      </trans-unit>
+      <trans-unit id="Associated documents">
+        <source>Associated documents</source>
+        <target>Associated documents</target>
+      </trans-unit>
+      <trans-unit id="Associated tags">
+        <source>Associated tags</source>
+        <target>Associated tags</target>
+      </trans-unit>
+      <trans-unit id="Attributes">
+        <source>Attributes</source>
+        <target>Attributes</target>
+      </trans-unit>
+      <trans-unit id="Audit dates use UTC. Generic collection follows ObjectModel writes. Direct SQL writes require a provider and an API call before the change.">
+        <source>Audit dates use UTC. Generic collection follows ObjectModel writes. Direct SQL writes require a provider and an API call before the change.</source>
+        <target>Audit dates use UTC. Generic collection follows ObjectModel writes. Direct SQL writes require a provider and an API call before the change.</target>
+      </trans-unit>
+      <trans-unit id="Audit installation failed. Check the PHP logs.">
+        <source>Audit installation failed. Check the PHP logs.</source>
+        <target>Audit installation failed. Check the PHP logs.</target>
+      </trans-unit>
+      <trans-unit id="Audit log">
+        <source>Audit log</source>
+        <target>Audit log</target>
+      </trans-unit>
+      <trans-unit id="Audit log settings">
+        <source>Audit log settings</source>
+        <target>Audit log settings</target>
+      </trans-unit>
+      <trans-unit id="Audit settings">
+        <source>Audit settings</source>
+        <target>Audit settings</target>
+      </trans-unit>
+      <trans-unit id="Author">
+        <source>Author</source>
+        <target>Author</target>
+      </trans-unit>
+      <trans-unit id="B2B mode">
+        <source>B2B mode</source>
+        <target>B2B mode</target>
+      </trans-unit>
+      <trans-unit id="Back to audit log">
+        <source>Back to audit log</source>
+        <target>Back to audit log</target>
+      </trans-unit>
+      <trans-unit id="Back-office audit log, retention and provider API.">
+        <source>Back-office audit log, retention and provider API.</source>
+        <target>Back-office audit log, retention and provider API.</target>
+      </trans-unit>
+      <trans-unit id="Before">
+        <source>Before</source>
+        <target>Before</target>
+      </trans-unit>
+      <trans-unit id="Business validation changed the proposed values. Restoration cancelled.">
+        <source>Business validation changed the proposed values. Restoration cancelled.</source>
+        <target>Business validation changed the proposed values. Restoration cancelled.</target>
+      </trans-unit>
+      <trans-unit id="Caption">
+        <source>Caption</source>
+        <target>Caption</target>
+      </trans-unit>
+      <trans-unit id="Carrier sort order">
+        <source>Carrier sort order</source>
+        <target>Carrier sort order</target>
+      </trans-unit>
+      <trans-unit id="Carrier sorting by price or position">
+        <source>Carrier sorting by price or position</source>
+        <target>Carrier sorting by price or position</target>
+      </trans-unit>
+      <trans-unit id="Catalog mode">
+        <source>Catalog mode</source>
+        <target>Catalog mode</target>
+      </trans-unit>
+      <trans-unit id="Categories">
+        <source>Categories</source>
+        <target>Categories</target>
+      </trans-unit>
+      <trans-unit id="Category">
+        <source>Category</source>
+        <target>Category</target>
+      </trans-unit>
+      <trans-unit id="Changes observed during an interrupted request.">
+        <source>Changes observed during an interrupted request.</source>
+        <target>Changes observed during an interrupted request.</target>
+      </trans-unit>
+      <trans-unit id="Changes to these settings are always audited. The current retention policy applies to existing events during the next purge.">
+        <source>Changes to these settings are always audited. The current retention policy applies to existing events during the next purge.</source>
+        <target>Changes to these settings are always audited. The current retention policy applies to existing events during the next purge.</target>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="Close history">
+        <source>Close history</source>
+        <target>Close history</target>
+      </trans-unit>
+      <trans-unit id="Collect">
+        <source>Collect</source>
+        <target>Collect</target>
+      </trans-unit>
+      <trans-unit id="Combination">
+        <source>Combination</source>
+        <target>Combination</target>
+      </trans-unit>
+      <trans-unit id="Combination data #">
+        <source>Combination data #</source>
+        <target>Combination data #</target>
+      </trans-unit>
+      <trans-unit id="Combination images">
+        <source>Combination images</source>
+        <target>Combination images</target>
+      </trans-unit>
+      <trans-unit id="Combinations">
+        <source>Combinations</source>
+        <target>Combinations</target>
+      </trans-unit>
+      <trans-unit id="Confirm restoration">
+        <source>Confirm restoration</source>
+        <target>Confirm restoration</target>
+      </trans-unit>
+      <trans-unit id="Confirmation requires a POST request.">
+        <source>Confirmation requires a POST request.</source>
+        <target>Confirmation requires a POST request.</target>
+      </trans-unit>
+      <trans-unit id="Confirmation restores these fields to their previous values and creates a new operation. This preview expires in five minutes.">
+        <source>Confirmation restores these fields to their previous values and creates a new operation. This preview expires in five minutes.</source>
+        <target>Confirmation restores these fields to their previous values and creates a new operation. This preview expires in five minutes.</target>
+      </trans-unit>
+      <trans-unit id="Conflict: value changed since the source event.">
+        <source>Conflict: value changed since the source event.</source>
+        <target>Conflict: value changed since the source event.</target>
+      </trans-unit>
+      <trans-unit id="Cost price (tax excl.)">
+        <source>Cost price (tax excl.)</source>
+        <target>Cost price (tax excl.)</target>
+      </trans-unit>
+      <trans-unit id="Cover image">
+        <source>Cover image</source>
+        <target>Cover image</target>
+      </trans-unit>
+      <trans-unit id="Creation">
+        <source>Creation</source>
+        <target>Creation</target>
+      </trans-unit>
+      <trans-unit id="Credit slip">
+        <source>Credit slip</source>
+        <target>Credit slip</target>
+      </trans-unit>
+      <trans-unit id="Current value">
+        <source>Current value</source>
+        <target>Current value</target>
+      </trans-unit>
+      <trans-unit id="Customer">
+        <source>Customer</source>
+        <target>Customer</target>
+      </trans-unit>
+      <trans-unit id="Customers">
+        <source>Customers</source>
+        <target>Customers</target>
+      </trans-unit>
+      <trans-unit id="Decimals must be exact strings.">
+        <source>Decimals must be exact strings.</source>
+        <target>Decimals must be exact strings.</target>
+      </trans-unit>
+      <trans-unit id="Default carrier">
+        <source>Default carrier</source>
+        <target>Default carrier</target>
+      </trans-unit>
+      <trans-unit id="Default category">
+        <source>Default category</source>
+        <target>Default category</target>
+      </trans-unit>
+      <trans-unit id="Default country">
+        <source>Default country</source>
+        <target>Default country</target>
+      </trans-unit>
+      <trans-unit id="Default currency">
+        <source>Default currency</source>
+        <target>Default currency</target>
+      </trans-unit>
+      <trans-unit id="Default group">
+        <source>Default group</source>
+        <target>Default group</target>
+      </trans-unit>
+      <trans-unit id="Default language">
+        <source>Default language</source>
+        <target>Default language</target>
+      </trans-unit>
+      <trans-unit id="Delete audit data on uninstall">
+        <source>Delete audit data on uninstall</source>
+        <target>Delete audit data on uninstall</target>
+      </trans-unit>
+      <trans-unit id="Deleted language (#">
+        <source>Deleted language (#</source>
+        <target>Deleted language (#</target>
+      </trans-unit>
+      <trans-unit id="Deletion">
+        <source>Deletion</source>
+        <target>Deletion</target>
+      </trans-unit>
+      <trans-unit id="Details">
+        <source>Details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="Document">
+        <source>Document</source>
+        <target>Document</target>
+      </trans-unit>
+      <trans-unit id="Downloadable file">
+        <source>Downloadable file</source>
+        <target>Downloadable file</target>
+      </trans-unit>
+      <trans-unit id="Email delivery method">
+        <source>Email delivery method</source>
+        <target>Email delivery method</target>
+      </trans-unit>
+      <trans-unit id="Email format">
+        <source>Email format</source>
+        <target>Email format</target>
+      </trans-unit>
+      <trans-unit id="Employee">
+        <source>Employee</source>
+        <target>Employee</target>
+      </trans-unit>
+      <trans-unit id="Employee ID">
+        <source>Employee ID</source>
+        <target>Employee ID</target>
+      </trans-unit>
+      <trans-unit id="Employees and permissions">
+        <source>Employees and permissions</source>
+        <target>Employees and permissions</target>
+      </trans-unit>
+      <trans-unit id="Enable">
+        <source>Enable</source>
+        <target>Enable</target>
+      </trans-unit>
+      <trans-unit id="Exact key">
+        <source>Exact key</source>
+        <target>Exact key</target>
+      </trans-unit>
+      <trans-unit id="Expired events are purged automatically in small batches, at most once per hour, after an audited change. For large shops, also schedule the full purge.">
+        <source>Expired events are purged automatically in small batches, at most once per hour, after an audited change. For large shops, also schedule the full purge.</source>
+        <target>Expired events are purged automatically in small batches, at most once per hour, after an audited change. For large shops, also schedule the full purge.</target>
+      </trans-unit>
+      <trans-unit id="Family">
+        <source>Family</source>
+        <target>Family</target>
+      </trans-unit>
+      <trans-unit id="Family retention in days (0 = global)">
+        <source>Family retention in days (0 = global)</source>
+        <target>Family retention in days (0 = global)</target>
+      </trans-unit>
+      <trans-unit id="Feature #">
+        <source>Feature #</source>
+        <target>Feature #</target>
+      </trans-unit>
+      <trans-unit id="Features (feature:value)">
+        <source>Features (feature:value)</source>
+        <target>Features (feature:value)</target>
+      </trans-unit>
+      <trans-unit id="Field">
+        <source>Field</source>
+        <target>Field</target>
+      </trans-unit>
+      <trans-unit id="Filter">
+        <source>Filter</source>
+        <target>Filter</target>
+      </trans-unit>
+      <trans-unit id="First name">
+        <source>First name</source>
+        <target>First name</target>
+      </trans-unit>
+      <trans-unit id="Free shipping amount threshold">
+        <source>Free shipping amount threshold</source>
+        <target>Free shipping amount threshold</target>
+      </trans-unit>
+      <trans-unit id="Free shipping weight threshold">
+        <source>Free shipping weight threshold</source>
+        <target>Free shipping weight threshold</target>
+      </trans-unit>
+      <trans-unit id="From">
+        <source>From</source>
+        <target>From</target>
+      </trans-unit>
+      <trans-unit id="Gift wrapping">
+        <source>Gift wrapping</source>
+        <target>Gift wrapping</target>
+      </trans-unit>
+      <trans-unit id="Gift wrapping price">
+        <source>Gift wrapping price</source>
+        <target>Gift wrapping price</target>
+      </trans-unit>
+      <trans-unit id="Global retention (days)">
+        <source>Global retention (days)</source>
+        <target>Global retention (days)</target>
+      </trans-unit>
+      <trans-unit id="Global values">
+        <source>Global values</source>
+        <target>Global values</target>
+      </trans-unit>
+      <trans-unit id="Global, group and shop values and their translations are tracked separately. Removing an explicit value restores inheritance; the log does not substitute the inherited value.">
+        <source>Global, group and shop values and their translations are tracked separately. Removing an explicit value restores inheritance; the log does not substitute the inherited value.</source>
+        <target>Global, group and shop values and their translations are tracked separately. Removing an explicit value restores inheritance; the log does not substitute the inherited value.</target>
+      </trans-unit>
+      <trans-unit id="Guest checkout">
+        <source>Guest checkout</source>
+        <target>Guest checkout</target>
+      </trans-unit>
+      <trans-unit id="Handling charges">
+        <source>Handling charges</source>
+        <target>Handling charges</target>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <target>History</target>
+      </trans-unit>
+      <trans-unit id="History pagination">
+        <source>History pagination</source>
+        <target>History pagination</target>
+      </trans-unit>
+      <trans-unit id="Image">
+        <source>Image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="Include year in invoice number">
+        <source>Include year in invoice number</source>
+        <target>Include year in invoice number</target>
+      </trans-unit>
+      <trans-unit id="Insufficient restoration permissions or product history disabled.">
+        <source>Insufficient restoration permissions or product history disabled.</source>
+        <target>Insufficient restoration permissions or product history disabled.</target>
+      </trans-unit>
+      <trans-unit id="Interrupted request">
+        <source>Interrupted request</source>
+        <target>Interrupted request</target>
+      </trans-unit>
+      <trans-unit id="Invalid authorization or security token.">
+        <source>Invalid authorization or security token.</source>
+        <target>Invalid authorization or security token.</target>
+      </trans-unit>
+      <trans-unit id="Invalid field selection.">
+        <source>Invalid field selection.</source>
+        <target>Invalid field selection.</target>
+      </trans-unit>
+      <trans-unit id="Invalid historical boolean.">
+        <source>Invalid historical boolean.</source>
+        <target>Invalid historical boolean.</target>
+      </trans-unit>
+      <trans-unit id="Invalid historical decimal.">
+        <source>Invalid historical decimal.</source>
+        <target>Invalid historical decimal.</target>
+      </trans-unit>
+      <trans-unit id="Invalid historical integer.">
+        <source>Invalid historical integer.</source>
+        <target>Invalid historical integer.</target>
+      </trans-unit>
+      <trans-unit id="Invalid or oversized historical text.">
+        <source>Invalid or oversized historical text.</source>
+        <target>Invalid or oversized historical text.</target>
+      </trans-unit>
+      <trans-unit id="Invalid preview.">
+        <source>Invalid preview.</source>
+        <target>Invalid preview.</target>
+      </trans-unit>
+      <trans-unit id="Invalid product.">
+        <source>Invalid product.</source>
+        <target>Invalid product.</target>
+      </trans-unit>
+      <trans-unit id="Invalid restoration selection.">
+        <source>Invalid restoration selection.</source>
+        <target>Invalid restoration selection.</target>
+      </trans-unit>
+      <trans-unit id="Invalid retention: ">
+        <source>Invalid retention: </source>
+        <target>Invalid retention: </target>
+      </trans-unit>
+      <trans-unit id="Invalid security token.">
+        <source>Invalid security token.</source>
+        <target>Invalid security token.</target>
+      </trans-unit>
+      <trans-unit id="Invoice generation">
+        <source>Invoice generation</source>
+        <target>Invoice generation</target>
+      </trans-unit>
+      <trans-unit id="Invoice prefix">
+        <source>Invoice prefix</source>
+        <target>Invoice prefix</target>
+      </trans-unit>
+      <trans-unit id="Last collection error:">
+        <source>Last collection error:</source>
+        <target>Last collection error:</target>
+      </trans-unit>
+      <trans-unit id="Loading history...">
+        <source>Loading history...</source>
+        <target>Loading history...</target>
+      </trans-unit>
+      <trans-unit id="Maintenance message">
+        <source>Maintenance message</source>
+        <target>Maintenance message</target>
+      </trans-unit>
+      <trans-unit id="Merchandise returns">
+        <source>Merchandise returns</source>
+        <target>Merchandise returns</target>
+      </trans-unit>
+      <trans-unit id="Minimum order amount">
+        <source>Minimum order amount</source>
+        <target>Minimum order amount</target>
+      </trans-unit>
+      <trans-unit id="Missing preview.">
+        <source>Missing preview.</source>
+        <target>Missing preview.</target>
+      </trans-unit>
+      <trans-unit id="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="Next">
+        <source>Next</source>
+        <target>Next</target>
+      </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="No changes recorded.">
+        <source>No changes recorded.</source>
+        <target>No changes recorded.</target>
+      </trans-unit>
+      <trans-unit id="No existing translation is available for a partial product update.">
+        <source>No existing translation is available for a partial product update.</source>
+        <target>No existing translation is available for a partial product update.</target>
+      </trans-unit>
+      <trans-unit id="Object ID">
+        <source>Object ID</source>
+        <target>Object ID</target>
+      </trans-unit>
+      <trans-unit id="Object type">
+        <source>Object type</source>
+        <target>Object type</target>
+      </trans-unit>
+      <trans-unit id="Open full audit log">
+        <source>Open full audit log</source>
+        <target>Open full audit log</target>
+      </trans-unit>
+      <trans-unit id="Operation #">
+        <source>Operation #</source>
+        <target>Operation #</target>
+      </trans-unit>
+      <trans-unit id="Operation not found, expired or unavailable in this context.">
+        <source>Operation not found, expired or unavailable in this context.</source>
+        <target>Operation not found, expired or unavailable in this context.</target>
+      </trans-unit>
+      <trans-unit id="Operation not found, expired or unavailable in this shop context.">
+        <source>Operation not found, expired or unavailable in this shop context.</source>
+        <target>Operation not found, expired or unavailable in this shop context.</target>
+      </trans-unit>
+      <trans-unit id="Order">
+        <source>Order</source>
+        <target>Order</target>
+      </trans-unit>
+      <trans-unit id="Order line">
+        <source>Order line</source>
+        <target>Order line</target>
+      </trans-unit>
+      <trans-unit id="Order status">
+        <source>Order status</source>
+        <target>Order status</target>
+      </trans-unit>
+      <trans-unit id="Ordered quantity">
+        <source>Ordered quantity</source>
+        <target>Ordered quantity</target>
+      </trans-unit>
+      <trans-unit id="Orders">
+        <source>Orders</source>
+        <target>Orders</target>
+      </trans-unit>
+      <trans-unit id="Orders include lines, payments, shipments and credit slips. Card data and download identifiers are excluded. Profile permissions are tracked from the native back-office permissions page. Shop and module settings use the explicit list above; other parameters are not collected.">
+        <source>Orders include lines, payments, shipments and credit slips. Card data and download identifiers are excluded. Profile permissions are tracked from the native back-office permissions page. Shop and module settings use the explicit list above; other parameters are not collected.</source>
+        <target>Orders include lines, payments, shipments and credit slips. Card data and download identifiers are excluded. Profile permissions are tracked from the native back-office permissions page. Shop and module settings use the explicit list above; other parameters are not collected.</target>
+      </trans-unit>
+      <trans-unit id="Origin">
+        <source>Origin</source>
+        <target>Origin</target>
+      </trans-unit>
+      <trans-unit id="PHP 8.1 or later is required.">
+        <source>PHP 8.1 or later is required.</source>
+        <target>PHP 8.1 or later is required.</target>
+      </trans-unit>
+      <trans-unit id="Parameter">
+        <source>Parameter</source>
+        <target>Parameter</target>
+      </trans-unit>
+      <trans-unit id="Passwords, tokens, private keys and internal Audit parameters are excluded. Shop contact details and default carrier changes in the native wizard are also supported. This list never reveals current values. Audit settings history is always enabled.">
+        <source>Passwords, tokens, private keys and internal Audit parameters are excluded. Shop contact details and default carrier changes in the native wizard are also supported. This list never reveals current values. Audit settings history is always enabled.</source>
+        <target>Passwords, tokens, private keys and internal Audit parameters are excluded. Shop contact details and default carrier changes in the native wizard are also supported. This list never reveals current values. Audit settings history is always enabled.</target>
+      </trans-unit>
+      <trans-unit id="Payment">
+        <source>Payment</source>
+        <target>Payment</target>
+      </trans-unit>
+      <trans-unit id="Payment method">
+        <source>Payment method</source>
+        <target>Payment method</target>
+      </trans-unit>
+      <trans-unit id="Preparing preview...">
+        <source>Preparing preview...</source>
+        <target>Preparing preview...</target>
+      </trans-unit>
+      <trans-unit id="Preview unavailable. Please try again.">
+        <source>Preview unavailable. Please try again.</source>
+        <target>Preview unavailable. Please try again.</target>
+      </trans-unit>
+      <trans-unit id="Preview undo">
+        <source>Preview undo</source>
+        <target>Preview undo</target>
+      </trans-unit>
+      <trans-unit id="Previous">
+        <source>Previous</source>
+        <target>Previous</target>
+      </trans-unit>
+      <trans-unit id="Price (tax excl.)">
+        <source>Price (tax excl.)</source>
+        <target>Price (tax excl.)</target>
+      </trans-unit>
+      <trans-unit id="Product">
+        <source>Product</source>
+        <target>Product</target>
+      </trans-unit>
+      <trans-unit id="Product and audit tables must use InnoDB.">
+        <source>Product and audit tables must use InnoDB.</source>
+        <target>Product and audit tables must use InnoDB.</target>
+      </trans-unit>
+      <trans-unit id="Product audit operation">
+        <source>Product audit operation</source>
+        <target>Product audit operation</target>
+      </trans-unit>
+      <trans-unit id="Product field restoration">
+        <source>Product field restoration</source>
+        <target>Product field restoration</target>
+      </trans-unit>
+      <trans-unit id="Product history">
+        <source>Product history</source>
+        <target>Product history</target>
+      </trans-unit>
+      <trans-unit id="Product history #">
+        <source>Product history #</source>
+        <target>Product history #</target>
+      </trans-unit>
+      <trans-unit id="Product unavailable in this shop context.">
+        <source>Product unavailable in this shop context.</source>
+        <target>Product unavailable in this shop context.</target>
+      </trans-unit>
+      <trans-unit id="Products">
+        <source>Products</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="Profile">
+        <source>Profile</source>
+        <target>Profile</target>
+      </trans-unit>
+      <trans-unit id="Public shop email address">
+        <source>Public shop email address</source>
+        <target>Public shop email address</target>
+      </trans-unit>
+      <trans-unit id="Quantity">
+        <source>Quantity</source>
+        <target>Quantity</target>
+      </trans-unit>
+      <trans-unit id="Recycled packaging">
+        <source>Recycled packaging</source>
+        <target>Recycled packaging</target>
+      </trans-unit>
+      <trans-unit id="Reference">
+        <source>Reference</source>
+        <target>Reference</target>
+      </trans-unit>
+      <trans-unit id="Refunded quantity">
+        <source>Refunded quantity</source>
+        <target>Refunded quantity</target>
+      </trans-unit>
+      <trans-unit id="Refunded total (tax incl.)">
+        <source>Refunded total (tax incl.)</source>
+        <target>Refunded total (tax incl.)</target>
+      </trans-unit>
+      <trans-unit id="Reload history">
+        <source>Reload history</source>
+        <target>Reload history</target>
+      </trans-unit>
+      <trans-unit id="Reload product">
+        <source>Reload product</source>
+        <target>Reload product</target>
+      </trans-unit>
+      <trans-unit id="Reload the product before making further changes.">
+        <source>Reload the product before making further changes.</source>
+        <target>Reload the product before making further changes.</target>
+      </trans-unit>
+      <trans-unit id="Require acceptance of terms and conditions">
+        <source>Require acceptance of terms and conditions</source>
+        <target>Require acceptance of terms and conditions</target>
+      </trans-unit>
+      <trans-unit id="Response unavailable. Reload the history to check whether the restoration completed before trying again.">
+        <source>Response unavailable. Reload the history to check whether the restoration completed before trying again.</source>
+        <target>Response unavailable. Reload the history to check whether the restoration completed before trying again.</target>
+      </trans-unit>
+      <trans-unit id="Restoration completed - new operation #%id%. Reload the product before making further changes.">
+        <source>Restoration completed - new operation #%id%. Reload the product before making further changes.</source>
+        <target>Restoration completed - new operation #%id%. Reload the product before making further changes.</target>
+      </trans-unit>
+      <trans-unit id="Restoration failed. Check the current values before trying again.">
+        <source>Restoration failed. Check the current values before trying again.</source>
+        <target>Restoration failed. Check the current values before trying again.</target>
+      </trans-unit>
+      <trans-unit id="Restoration in progress. Please wait before continuing.">
+        <source>Restoration in progress. Please wait before continuing.</source>
+        <target>Restoration in progress. Please wait before continuing.</target>
+      </trans-unit>
+      <trans-unit id="Restoration of operation #">
+        <source>Restoration of operation #</source>
+        <target>Restoration of operation #</target>
+      </trans-unit>
+      <trans-unit id="Restoration provider unavailable or family disabled.">
+        <source>Restoration provider unavailable or family disabled.</source>
+        <target>Restoration provider unavailable or family disabled.</target>
+      </trans-unit>
+      <trans-unit id="Restoration requires an independent transaction.">
+        <source>Restoration requires an independent transaction.</source>
+        <target>Restoration requires an independent transaction.</target>
+      </trans-unit>
+      <trans-unit id="Restoration response unavailable. Reload the product to check its state before any further action.">
+        <source>Restoration response unavailable. Reload the product to check its state before any further action.</source>
+        <target>Restoration response unavailable. Reload the product to check its state before any further action.</target>
+      </trans-unit>
+      <trans-unit id="Restore">
+        <source>Restore</source>
+        <target>Restore</target>
+      </trans-unit>
+      <trans-unit id="Restoring...">
+        <source>Restoring...</source>
+        <target>Restoring...</target>
+      </trans-unit>
+      <trans-unit id="Retention">
+        <source>Retention</source>
+        <target>Retention</target>
+      </trans-unit>
+      <trans-unit id="Retention by family">
+        <source>Retention by family</source>
+        <target>Retention by family</target>
+      </trans-unit>
+      <trans-unit id="Retention must be between 1 and 3650 days.">
+        <source>Retention must be between 1 and 3650 days.</source>
+        <target>Retention must be between 1 and 3650 days.</target>
+      </trans-unit>
+      <trans-unit id="Return period">
+        <source>Return period</source>
+        <target>Return period</target>
+      </trans-unit>
+      <trans-unit id="Root objects">
+        <source>Root objects</source>
+        <target>Root objects</target>
+      </trans-unit>
+      <trans-unit id="SEO description">
+        <source>SEO description</source>
+        <target>SEO description</target>
+      </trans-unit>
+      <trans-unit id="SEO title">
+        <source>SEO title</source>
+        <target>SEO title</target>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="Save your changes or reload the product before restoring data.">
+        <source>Save your changes or reload the product before restoring data.</source>
+        <target>Save your changes or reload the product before restoring data.</target>
+      </trans-unit>
+      <trans-unit id="Schedule daily from the PrestaShop root:">
+        <source>Schedule daily from the PrestaShop root:</source>
+        <target>Schedule daily from the PrestaShop root:</target>
+      </trans-unit>
+      <trans-unit id="Scheduled purge and coverage">
+        <source>Scheduled purge and coverage</source>
+        <target>Scheduled purge and coverage</target>
+      </trans-unit>
+      <trans-unit id="Select at least one field to preview.">
+        <source>Select at least one field to preview.</source>
+        <target>Select at least one field to preview.</target>
+      </trans-unit>
+      <trans-unit id="Select the fields to undo, then preview their values before confirming.">
+        <source>Select the fields to undo, then preview their values before confirming.</source>
+        <target>Select the fields to undo, then preview their values before confirming.</target>
+      </trans-unit>
+      <trans-unit id="Select the fields to undo. Other fields and objects cannot be restored.">
+        <source>Select the fields to undo. Other fields and objects cannot be restored.</source>
+        <target>Select the fields to undo. Other fields and objects cannot be restored.</target>
+      </trans-unit>
+      <trans-unit id="Selected configuration">
+        <source>Selected configuration</source>
+        <target>Selected configuration</target>
+      </trans-unit>
+      <trans-unit id="Settings saved.">
+        <source>Settings saved.</source>
+        <target>Settings saved.</target>
+      </trans-unit>
+      <trans-unit id="Shipment">
+        <source>Shipment</source>
+        <target>Shipment</target>
+      </trans-unit>
+      <trans-unit id="Shop and module settings">
+        <source>Shop and module settings</source>
+        <target>Shop and module settings</target>
+      </trans-unit>
+      <trans-unit id="Shop configuration">
+        <source>Shop configuration</source>
+        <target>Shop configuration</target>
+      </trans-unit>
+      <trans-unit id="Shop enabled">
+        <source>Shop enabled</source>
+        <target>Shop enabled</target>
+      </trans-unit>
+      <trans-unit id="Shop group configuration">
+        <source>Shop group configuration</source>
+        <target>Shop group configuration</target>
+      </trans-unit>
+      <trans-unit id="Shop name">
+        <source>Shop name</source>
+        <target>Shop name</target>
+      </trans-unit>
+      <trans-unit id="Short description">
+        <source>Short description</source>
+        <target>Short description</target>
+      </trans-unit>
+      <trans-unit id="Some changes may not have been recorded.">
+        <source>Some changes may not have been recorded.</source>
+        <target>Some changes may not have been recorded.</target>
+      </trans-unit>
+      <trans-unit id="Source: operation #">
+        <source>Source: operation #</source>
+        <target>Source: operation #</target>
+      </trans-unit>
+      <trans-unit id="Specific price">
+        <source>Specific price</source>
+        <target>Specific price</target>
+      </trans-unit>
+      <trans-unit id="Specific prices">
+        <source>Specific prices</source>
+        <target>Specific prices</target>
+      </trans-unit>
+      <trans-unit id="Status">
+        <source>Status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="Stock">
+        <source>Stock</source>
+        <target>Stock</target>
+      </trans-unit>
+      <trans-unit id="Stock management">
+        <source>Stock management</source>
+        <target>Stock management</target>
+      </trans-unit>
+      <trans-unit id="Taxes enabled">
+        <source>Taxes enabled</source>
+        <target>Taxes enabled</target>
+      </trans-unit>
+      <trans-unit id="Terms and conditions page">
+        <source>Terms and conditions page</source>
+        <target>Terms and conditions page</target>
+      </trans-unit>
+      <trans-unit id="The PDO MySQL driver is required to isolate audit transactions.">
+        <source>The PDO MySQL driver is required to isolate audit transactions.</source>
+        <target>The PDO MySQL driver is required to isolate audit transactions.</target>
+      </trans-unit>
+      <trans-unit id="The data or scope has changed. Preview the restoration again.">
+        <source>The data or scope has changed. Preview the restoration again.</source>
+        <target>The data or scope has changed. Preview the restoration again.</target>
+      </trans-unit>
+      <trans-unit id="The data was restored, but product synchronization failed. Check the diagnostics before continuing.">
+        <source>The data was restored, but product synchronization failed. Check the diagnostics before continuing.</source>
+        <target>The data was restored, but product synchronization failed. Check the diagnostics before continuing.</target>
+      </trans-unit>
+      <trans-unit id="The decimal exceeds the allowed precision.">
+        <source>The decimal exceeds the allowed precision.</source>
+        <target>The decimal exceeds the allowed precision.</target>
+      </trans-unit>
+      <trans-unit id="The historical value is no longer an allowed choice.">
+        <source>The historical value is no longer an allowed choice.</source>
+        <target>The historical value is no longer an allowed choice.</target>
+      </trans-unit>
+      <trans-unit id="The historical value is outside the allowed range.">
+        <source>The historical value is outside the allowed range.</source>
+        <target>The historical value is outside the allowed range.</target>
+      </trans-unit>
+      <trans-unit id="The owning module must be enabled in the source event shop.">
+        <source>The owning module must be enabled in the source event shop.</source>
+        <target>The owning module must be enabled in the source event shop.</target>
+      </trans-unit>
+      <trans-unit id="The preview has expired or belongs to another session.">
+        <source>The preview has expired or belongs to another session.</source>
+        <target>The preview has expired or belongs to another session.</target>
+      </trans-unit>
+      <trans-unit id="The preview product has changed.">
+        <source>The preview product has changed.</source>
+        <target>The preview product has changed.</target>
+      </trans-unit>
+      <trans-unit id="The product field definition has changed. Update the integration.">
+        <source>The product field definition has changed. Update the integration.</source>
+        <target>The product field definition has changed. Update the integration.</target>
+      </trans-unit>
+      <trans-unit id="The product or its shop association no longer exists.">
+        <source>The product or its shop association no longer exists.</source>
+        <target>The product or its shop association no longer exists.</target>
+      </trans-unit>
+      <trans-unit id="The product update failed. Restoration cancelled.">
+        <source>The product update failed. Restoration cancelled.</source>
+        <target>The product update failed. Restoration cancelled.</target>
+      </trans-unit>
+      <trans-unit id="The product will reload. Unsaved changes will be lost. Continue?">
+        <source>The product will reload. Unsaved changes will be lost. Continue?</source>
+        <target>The product will reload. Unsaved changes will be lost. Continue?</target>
+      </trans-unit>
+      <trans-unit id="The restoration exceeds the maximum audit event size.">
+        <source>The restoration exceeds the maximum audit event size.</source>
+        <target>The restoration exceeds the maximum audit event size.</target>
+      </trans-unit>
+      <trans-unit id="The settings could not be saved.">
+        <source>The settings could not be saved.</source>
+        <target>The settings could not be saved.</target>
+      </trans-unit>
+      <trans-unit id="The source event has expired.">
+        <source>The source event has expired.</source>
+        <target>The source event has expired.</target>
+      </trans-unit>
+      <trans-unit id="The source event is missing, expired or unavailable for restoration in this context.">
+        <source>The source event is missing, expired or unavailable for restoration in this context.</source>
+        <target>The source event is missing, expired or unavailable for restoration in this context.</target>
+      </trans-unit>
+      <trans-unit id="The source type does not match the restoration storage.">
+        <source>The source type does not match the restoration storage.</source>
+        <target>The source type does not match the restoration storage.</target>
+      </trans-unit>
+      <trans-unit id="These settings apply to every shop. Disabling a family stops collection and retains its history until expiration.">
+        <source>These settings apply to every shop. Disabling a family stops collection and retains its history until expiration.</source>
+        <target>These settings apply to every shop. Disabling a family stops collection and retains its history until expiration.</target>
+      </trans-unit>
+      <trans-unit id="This is the complete list of parameters declared by enabled modules. Collection uses the Symfony service, ObjectModel hooks or an explicit integration. Direct static calls and third-party SQL require that integration even when the key is selected. Only checked keys are collected when the Selected configuration family is enabled. Wildcards and arbitrary parameters are not accepted.">
+        <source>This is the complete list of parameters declared by enabled modules. Collection uses the Symfony service, ObjectModel hooks or an explicit integration. Direct static calls and third-party SQL require that integration even when the key is selected. Only checked keys are collected when the Selected configuration family is enabled. Wildcards and arbitrary parameters are not accepted.</source>
+        <target>This is the complete list of parameters declared by enabled modules. Collection uses the Symfony service, ObjectModel hooks or an explicit integration. Direct static calls and third-party SQL require that integration even when the key is selected. Only checked keys are collected when the Selected configuration family is enabled. Wildcards and arbitrary parameters are not accepted.</target>
+      </trans-unit>
+      <trans-unit id="This preview has already been applied.">
+        <source>This preview has already been applied.</source>
+        <target>This preview has already been applied.</target>
+      </trans-unit>
+      <trans-unit id="To">
+        <source>To</source>
+        <target>To</target>
+      </trans-unit>
+      <trans-unit id="Track">
+        <source>Track</source>
+        <target>Track</target>
+      </trans-unit>
+      <trans-unit id="Tracked configuration parameters">
+        <source>Tracked configuration parameters</source>
+        <target>Tracked configuration parameters</target>
+      </trans-unit>
+      <trans-unit id="Tracked families">
+        <source>Tracked families</source>
+        <target>Tracked families</target>
+      </trans-unit>
+      <trans-unit id="Translations">
+        <source>Translations</source>
+        <target>Translations</target>
+      </trans-unit>
+      <trans-unit id="Try again">
+        <source>Try again</source>
+        <target>Try again</target>
+      </trans-unit>
+      <trans-unit id="Unable to load history. ">
+        <source>Unable to load history. </source>
+        <target>Unable to load history. </target>
+      </trans-unit>
+      <trans-unit id="Unchecked, uninstalling keeps the audit log and these settings. Checked, uninstalling or resetting the module permanently deletes them.">
+        <source>Unchecked, uninstalling keeps the audit log and these settings. Checked, uninstalling or resetting the module permanently deletes them.</source>
+        <target>Unchecked, uninstalling keeps the audit log and these settings. Checked, uninstalling or resetting the module permanently deletes them.</target>
+      </trans-unit>
+      <trans-unit id="Undo refused: at least one field has changed since this operation. No data was changed.">
+        <source>Undo refused: at least one field has changed since this operation. No data was changed.</source>
+        <target>Undo refused: at least one field has changed since this operation. No data was changed.</target>
+      </trans-unit>
+      <trans-unit id="Undo selected fields">
+        <source>Undo selected fields</source>
+        <target>Undo selected fields</target>
+      </trans-unit>
+      <trans-unit id="Unit price (tax excl.)">
+        <source>Unit price (tax excl.)</source>
+        <target>Unit price (tax excl.)</target>
+      </trans-unit>
+      <trans-unit id="Unit price (tax incl.)">
+        <source>Unit price (tax incl.)</source>
+        <target>Unit price (tax incl.)</target>
+      </trans-unit>
+      <trans-unit id="Unknown action.">
+        <source>Unknown action.</source>
+        <target>Unknown action.</target>
+      </trans-unit>
+      <trans-unit id="Update">
+        <source>Update</source>
+        <target>Update</target>
+      </trans-unit>
+      <trans-unit id="Value to restore">
+        <source>Value to restore</source>
+        <target>Value to restore</target>
+      </trans-unit>
+      <trans-unit id="View audit log">
+        <source>View audit log</source>
+        <target>View audit log</target>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="You do not have restoration permissions.">
+        <source>You do not have restoration permissions.</source>
+        <target>You do not have restoration permissions.</target>
+      </trans-unit>
+      <trans-unit id="[Invalid JSON value hidden]">
+        <source>[Invalid JSON value hidden]</source>
+        <target>[Invalid JSON value hidden]</target>
+      </trans-unit>
+      <trans-unit id="event(s)">
+        <source>event(s)</source>
+        <target>event(s)</target>
+      </trans-unit>
+      <trans-unit id="operation(s)">
+        <source>operation(s)</source>
+        <target>operation(s)</target>
+      </trans-unit>
+      <trans-unit id="operation(s) · Dates in UTC">
+        <source>operation(s) · Dates in UTC</source>
+        <target>operation(s) · Dates in UTC</target>
+      </trans-unit>
+      <trans-unit id="· Dates in UTC">
+        <source>· Dates in UTC</source>
+        <target>· Dates in UTC</target>
+      </trans-unit>
+      <trans-unit id="· shop">
+        <source>· shop</source>
+        <target>· shop</target>
+      </trans-unit>
+      <trans-unit id="Carriers">
+        <source>Carriers</source>
+        <target>Carriers</target>
+      </trans-unit>
+      <trans-unit id="Back-office page permissions">
+        <source>Back-office page permissions</source>
+        <target>Back-office page permissions</target>
+      </trans-unit>
+      <trans-unit id="Module permissions">
+        <source>Module permissions</source>
+        <target>Module permissions</target>
+      </trans-unit>
+      <trans-unit id="Groups">
+        <source>Groups</source>
+        <target>Groups</target>
+      </trans-unit>
+      <trans-unit id="Feature #%feature% - value #%value%">
+        <source>Feature #%feature% - value #%value%</source>
+        <target>Feature #%feature% - value #%value%</target>
+      </trans-unit>
+      <trans-unit id="Pack - product #%product%, combination #%combination%">
+        <source>Pack - product #%product%, combination #%combination%</source>
+        <target>Pack - product #%product%, combination #%combination%</target>
+      </trans-unit>
+      <trans-unit id="Supplier #%supplier%, combination #%combination% - %field%">
+        <source>Supplier #%supplier%, combination #%combination% - %field%</source>
+        <target>Supplier #%supplier%, combination #%combination% - %field%</target>
+      </trans-unit>
+      <trans-unit id="Currency">
+        <source>Currency</source>
+        <target>Currency</target>
+      </trans-unit>
+      <trans-unit id="The storage adapter did not return every selected field.">
+        <source>The storage adapter did not return every selected field.</source>
+        <target>The storage adapter did not return every selected field.</target>
+      </trans-unit>
+      <trans-unit id="Configuration">
+        <source>Configuration</source>
+        <target>Configuration</target>
+      </trans-unit>
+      <trans-unit id="Type">
+        <source>Type</source>
+        <target>Type</target>
+      </trans-unit>
+      <trans-unit id="Date UTC">
+        <source>Date UTC</source>
+        <target>Date UTC</target>
+      </trans-unit>
+      <trans-unit id="Page">
+        <source>Page</source>
+        <target>Page</target>
+      </trans-unit>
+      <trans-unit id="96af8fae67510775a36d3978f256ef2e">
+        <source>Find who changed what, compare values and review product history.</source>
+        <target>Find who changed what, compare values and review product history.</target>
+      </trans-unit>
+      <trans-unit id="93e7ca1109443a349df2a9764974ffcb">
+        <source>Dates in UTC</source>
+        <target>Dates in UTC</target>
+      </trans-unit>
+      <trans-unit id="3b5254ca35ff109e4c63818cefb0f0eb">
+        <source>Audit navigation</source>
+        <target>Audit navigation</target>
+      </trans-unit>
+      <trans-unit id="9f82518d468b9fee614fcc92f76bb163">
+        <source>Shop</source>
+        <target>Shop</target>
+      </trans-unit>
+      <trans-unit id="9fca497eb3d4cca339630ca4a036a28d">
+        <source>Matching operations</source>
+        <target>Matching operations</target>
+      </trans-unit>
+      <trans-unit id="23bc9bf3689d3ee714a4c7efa48b4546">
+        <source>On this page</source>
+        <target>On this page</target>
+      </trans-unit>
+      <trans-unit id="e70ff73c966f50698b4cd33ac31fa05f">
+        <source>Results follow your filters, retention policy and shop permissions.</source>
+        <target>Results follow your filters, retention policy and shop permissions.</target>
+      </trans-unit>
+      <trans-unit id="76bbd33275eda904740501bbf755a39e">
+        <source>Try another filter or check which families are collected.</source>
+        <target>Try another filter or check which families are collected.</target>
+      </trans-unit>
+      <trans-unit id="b28aaa7d2f8c959ac0a42ec3859a39b4">
+        <source>Back office</source>
+        <target>Back office</target>
+      </trans-unit>
+      <trans-unit id="760fbdfafca0cf0cfd2502103679fc22">
+        <source>Command line</source>
+        <target>Command line</target>
+      </trans-unit>
+      <trans-unit id="268d1dca05a4dd6c3d647a4de01bf9d5">
+        <source>Reset filters</source>
+        <target>Reset filters</target>
+      </trans-unit>
+      <trans-unit id="e14fccd6df1f2e02215af6433a8f8942">
+        <source>Choose what to collect and how long to keep it.</source>
+        <target>Choose what to collect and how long to keep it.</target>
+      </trans-unit>
+      <trans-unit id="804ccd6219996d12eda865d1c0707423">
+        <source>All shops</source>
+        <target>All shops</target>
+      </trans-unit>
+      <trans-unit id="93f5d8c932cdf0c0147eb0436d2371ab">
+        <source>Collection and retention</source>
+        <target>Collection and retention</target>
+      </trans-unit>
+      <trans-unit id="9b4484be713a7216851a347248b5fa3a">
+        <source>About configuration tracking</source>
+        <target>About configuration tracking</target>
+      </trans-unit>
+      <trans-unit id="d0d2f902c9dc3a9601dcc3228221916c">
+        <source>Data removal</source>
+        <target>Data removal</target>
+      </trans-unit>
+      <trans-unit id="e4167a1be8ba2b750c4bf325a16172e0">
+        <source>History unavailable in this context.</source>
+        <target>History unavailable in this context.</target>
+      </trans-unit>
+      <trans-unit id="ui-retention-days">
+        <source>Retention (days, 0 = global)</source>
+        <target>Retention (days, 0 = global)</target>
+      </trans-unit>
+      <trans-unit id="ui-action">
+        <source>Action</source>
+        <target>Action</target>
+      </trans-unit>
+      <trans-unit id="ce2c8aed9c2fa0cfbed56cbda4d8bf07">
+        <source>Empty</source>
+        <target>Empty</target>
+      </trans-unit>
+      <trans-unit id="845fc97ac685bc5e2cd8566577975e33">
+        <source>Null value</source>
+        <target>Null value</target>
+      </trans-unit>
+      <trans-unit id="93f07b720ebf7d1246512569761a5804">
+        <source>Removed</source>
+        <target>Removed</target>
+      </trans-unit>
+      <trans-unit id="f29ddbfb905eb2593fdcdfb243f9af85">
+        <source>Added</source>
+        <target>Added</target>
+      </trans-unit>
+      <trans-unit id="acc18740d52e823e7e871236322a609b">
+        <source>Unchanged text is not highlighted.</source>
+        <target>Unchanged text is not highlighted.</target>
+      </trans-unit>
+      <trans-unit id="d2421e358a7402b5a2d5ed0f10da7b9a">
+        <source>Detailed highlighting is limited for this value. Full values are shown.</source>
+        <target>Detailed highlighting is limited for this value. Full values are shown.</target>
+      </trans-unit>
+      <trans-unit id="8f7f4c1ce7a4f933663d10543562b096">
+        <source>About</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="34b6cd75171affba6957e308dcbd92be">
+        <source>Version</source>
+        <target>Version</target>
+      </trans-unit>
+      <trans-unit id="794df3791a8c800841516007427a2aa3">
+        <source>License</source>
+        <target>License</target>
+      </trans-unit>
+      <trans-unit id="79e2037105e05c86d3f047cb3948e064">
+        <source>How the audit log works</source>
+        <target>How the audit log works</target>
+      </trans-unit>
+      <trans-unit id="88c839d3da7ee3fcd160f0f848db8872">
+        <source>Audit records back-office changes with the author, date, shop and field values before and after each change.</source>
+        <target>Audit records back-office changes with the author, date, shop and field values before and after each change.</target>
+      </trans-unit>
+      <trans-unit id="0ace3005b3787e58ef3d1b24b166f311">
+        <source>Filter the audit log to inspect operations, or open History from a product to review its changes.</source>
+        <target>Filter the audit log to inspect operations, or open History from a product to review its changes.</target>
+      </trans-unit>
+      <trans-unit id="cc0a5f8bbf2d957071561baba0b62236">
+        <source>Retention is configurable globally and by family. Disabling collection does not delete existing history.</source>
+        <target>Retention is configurable globally and by family. Disabling collection does not delete existing history.</target>
+      </trans-unit>
+      <trans-unit id="12fe2f0f668fca9e9faf66329241be61">
+        <source>Product restoration</source>
+        <target>Product restoration</target>
+      </trans-unit>
+      <trans-unit id="619ba7437569c5cdadaf9cf8cc51682f">
+        <source>Restoring selected fields requires dedicated permissions, a preview and confirmation. Conflicts with current data prevent restoration.</source>
+        <target>Restoring selected fields requires dedicated permissions, a preview and confirmation. Conflicts with current data prevent restoration.</target>
+      </trans-unit>
+      <trans-unit id="eb72b680c2a9c88dae9ec03d467d41d9">
+        <source>The audit log is not a complete backup and cannot recreate deleted objects.</source>
+        <target>The audit log is not a complete backup and cannot recreate deleted objects.</target>
+      </trans-unit>
+      <trans-unit id="5b6cf869265c13af8566f192b4ab3d2a">
+        <source>Documentation</source>
+        <target>Documentation</target>
+      </trans-unit>
+      <trans-unit id="ee1df07da2be9d77532bda985ddf3ff9">
+        <source>Installation and overview</source>
+        <target>Installation and overview</target>
+      </trans-unit>
+      <trans-unit id="c90de948f47b66a08193f276c87e0932">
+        <source>Permissions and multistore</source>
+        <target>Permissions and multistore</target>
+      </trans-unit>
+      <trans-unit id="a8f1a7f8f89c83b143074bc602fbfbf6">
+        <source>Visual diff</source>
+        <target>Visual diff</target>
+      </trans-unit>
+      <trans-unit id="e01aecb528730f3bfe10f9d57f1317bf">
+        <source>Integrations</source>
+        <target>Integrations</target>
+      </trans-unit>
+      <trans-unit id="50436b4a715e57bf00fa623eb6e72791">
+        <source>Provider API</source>
+        <target>Provider API</target>
+      </trans-unit>
+      <trans-unit id="65b8e00d839048284b183d6d0851f0b7">
+        <source>Configuration tracking API</source>
+        <target>Configuration tracking API</target>
+      </trans-unit>
+      <trans-unit id="2a485acfebbdd03240e46e9e0431f600">
+        <source>Field labels API</source>
+        <target>Field labels API</target>
+      </trans-unit>
+      <trans-unit id="fe0ef56e83dddcad3cf85d7c14c6d16a">
+        <source>Restoration API</source>
+        <target>Restoration API</target>
+      </trans-unit>
+      <trans-unit id="0c4a918a2a63e6ade2d559310c9dbd61">
+        <source>Custom entity example</source>
+        <target>Custom entity example</target>
+      </trans-unit>
+      <trans-unit id="f42333725bb8cf9210871c9b0f3bc7d5">
+        <source>Custom product fields example</source>
+        <target>Custom product fields example</target>
+      </trans-unit>
+      <trans-unit id="bc42cf6b1b58b6c66d1da8a50e2c1773">
+        <source>Custom storage restoration example</source>
+        <target>Custom storage restoration example</target>
+      </trans-unit>
+      <trans-unit id="d04b37c9efab1fe821e34d345c00e123">
+        <source>Testing and compatibility</source>
+        <target>Testing and compatibility</target>
+      </trans-unit>
+      <trans-unit id="431006b6ff925f7c3072579062f7aece">
+        <source>Contributing</source>
+        <target>Contributing</target>
+      </trans-unit>
+      <trans-unit id="c49182dc0c7a70b9cd2e10853d9ec6c7">
+        <source>Changelog</source>
+        <target>Changelog</target>
+      </trans-unit>
+      <trans-unit id="3995e76cfbc85dea7472c8a1aa627244">
+        <source>Rows per page</source>
+        <target>Rows per page</target>
+      </trans-unit>
+      <trans-unit id="36b64aad8a26246fe3ad4116a2b6f289">
+        <source>Diagnostics</source>
+        <target>Diagnostics</target>
+      </trans-unit>
+      <trans-unit id="218c0df64c779787761ac7d51a0f13ba">
+        <source>This is the last recorded error and does not indicate whether a problem is still ongoing. Some changes at that time may not have been recorded. Consult the PHP logs for details.</source>
+        <target>This is the last recorded error and does not indicate whether a problem is still ongoing. Some changes at that time may not have been recorded. Consult the PHP logs for details.</target>
+      </trans-unit>
+      <trans-unit id="0ff8380f73af72f20aa08004fa2ffef0">
+        <source>No collection error has been recorded.</source>
+        <target>No collection error has been recorded.</target>
+      </trans-unit>
+      <trans-unit id="60f37d78d5e875526d7a0aebed35b991">
+        <source>Collection log</source>
+        <target>Collection log</target>
+      </trans-unit>
+      <trans-unit id="d0f48a9c052d2520fb5c50457e3e166e">
+        <source>Database tables</source>
+        <target>Database tables</target>
+      </trans-unit>
+      <trans-unit id="75f83d3951a96b9dba89b60b404e4e81">
+        <source>Storage statistics cover all shops. Row counts are exact at query time; allocated sizes are database estimates and include indexes.</source>
+        <target>Storage statistics cover all shops. Row counts are exact at query time; allocated sizes are database estimates and include indexes.</target>
+      </trans-unit>
+      <trans-unit id="51c45b795d5d18a3e4e0c37e8b20a141">
+        <source>Table</source>
+        <target>Table</target>
+      </trans-unit>
+      <trans-unit id="530f488f7a9800411efc6926ab189708">
+        <source>Rows</source>
+        <target>Rows</target>
+      </trans-unit>
+      <trans-unit id="6f59a9307c2ae925a7e6141db7db2221">
+        <source>Data (MiB)</source>
+        <target>Data (MiB)</target>
+      </trans-unit>
+      <trans-unit id="c1dc04bef082e533cd8c92d1f12b1bc2">
+        <source>Indexes (MiB)</source>
+        <target>Indexes (MiB)</target>
+      </trans-unit>
+      <trans-unit id="7dafe4ccc5f5a6b18f2920c36ba39ae1">
+        <source>Total (MiB)</source>
+        <target>Total (MiB)</target>
+      </trans-unit>
+      <trans-unit id="453e6aa38d87b28ccae545967c53004f">
+        <source>Unavailable</source>
+        <target>Unavailable</target>
+      </trans-unit>
+      <trans-unit id="Open object">
+        <source>Open object</source>
+        <target>Open object</target>
+      </trans-unit>
+    <trans-unit id="employee_login_0"><source>Back-office logins</source><target>Back-office logins</target></trans-unit>
+    <trans-unit id="employee_login_1"><source>Back-office login</source><target>Back-office login</target></trans-unit>
+    <trans-unit id="employee_login_2"><source>Login</source><target>Login</target></trans-unit>
+    <trans-unit id="employee_login_3"><source>IP address</source><target>IP address</target></trans-unit>
+    <trans-unit id="login_history_setting_0"><source>Enable back-office login history</source><target>Enable back-office login history</target></trans-unit>
+    <trans-unit id="login_history_setting_1"><source>Records successful logins with the employee, UTC date and IP address, independently of employee change tracking. Disabled by default. Disabling collection keeps existing history until expiration. Employee family retention applies.</source><target>Records successful logins with the employee, UTC date and IP address, independently of employee change tracking. Disabled by default. Disabling collection keeps existing history until expiration. Employee family retention applies.</target></trans-unit>
+          <trans-unit id="employee_login_description"><source>Review successful back-office logins, including the employee, date and IP address.</source><target>Review successful back-office logins, including the employee, date and IP address.</target></trans-unit>
+    </body>
+  </file>
+</xliff>
