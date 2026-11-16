@@ -14,7 +14,9 @@ This keeps the journal bounded on hosting without cron or CLI access. On large s
 or to clear a backlog, also schedule the command under the shop's PHP user. `batch-size` is bounded from 1 to
 5000; `max-batches` limits work per category per invocation. The purge separately
 counts expired events, hidden merge states, correlation tickets and orphan operations.
-Run it more frequently when there is a backlog.
+Run it more frequently when there is a backlog. Operation headers left without events
+by an interrupted write are repaired by the command only: that check reads every
+header, so the automatic purge skips it. Such headers are never shown in the journal.
 
 No expiry is stored per event. The purge compares the operation date with the **current**
 retention policy, including for older events. Restoration also applies current

@@ -70,7 +70,7 @@ The standalone suite passes 76 tests / 570 assertions, including multilingual
 custom-feature replacement tests (predefined choices, duplicate values, genuine
 additions and removals) and the generated specific-price regressions.
 
-Three integration fixtures run from the shop root against session-local temporary
+Four integration fixtures run from the shop root against session-local temporary
 tables that shadow the shop tables. They exercise the real Audit flush and do not
 modify persisted business data or historical audit events:
 
@@ -85,6 +85,9 @@ modify persisted business data or historical audit events:
 - `php modules/pixel_audit/tests/Integration/default-combinations.php`: unchanged
   default, real switch, independent shop defaults, new collection baseline and a
   simultaneous real combination price change.
+- `php modules/pixel_audit/tests/Integration/purge-retention.php`: per-family
+  retention, batch budget, header cleanup, orphan repair by the command only and
+  personal data erasure.
 
 They pass on PrestaShop 8.2.7 / PHP 8.1.34 and PrestaShop 9.1.5 / PHP 8.4.27, and the
 integration job passes on new PrestaShop 8.2.9 / PHP 8.1.34 and 9.1.5 / PHP 8.4.27 shops.

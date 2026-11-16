@@ -449,7 +449,7 @@ class Pixel_audit extends Module
                 return;
             }
             Configuration::updateGlobalValue(self::LAST_PURGE_KEY, time());
-            (new Repository())->purgeAll(self::AUTO_PURGE_BATCH_SIZE, self::AUTO_PURGE_MAX_BATCHES);
+            (new Repository())->purgeAll(self::AUTO_PURGE_BATCH_SIZE, self::AUTO_PURGE_MAX_BATCHES, false);
         } catch (Throwable $error) {
             Diagnostics::report($error);
         }

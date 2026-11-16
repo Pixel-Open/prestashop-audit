@@ -42,7 +42,7 @@ final class Repository
             final_exists TINYINT UNSIGNED NULL,
             is_visible TINYINT UNSIGNED NOT NULL DEFAULT 1,
             KEY operation_id (id_operation),
-            KEY subject (subject_type, subject_id, id_shop), KEY root (root_type, root_id, id_shop), KEY family (family, id_event)
+            KEY subject (subject_type, subject_id, id_shop), KEY root (root_type, root_id, id_shop), KEY family (family, id_operation)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4')
         && $db->execute('CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'pixel_audit_ticket` (
             operation_key CHAR(32) NOT NULL PRIMARY KEY, id_employee INT UNSIGNED NOT NULL,
@@ -162,18 +162,30 @@ final class Repository
         try {
             $settings = (new Settings())->get();
             $days = max(1, min(3650, (int) $settings['days']));
-            $minimumDays = $days;
-            $cases = '';
-            foreach (($settings['retention'] ?? []) as $family => $override) {
-                if ((int) $override > 0) {
-                    $minimumDays = min($minimumDays, max(1, min(3650, (int) $override)));
-                    $cases .= " WHEN '" . pSQL($family) . "' THEN " . max(1, min(3650, (int) $override));
-                }
+            $families = $db->executeS('SELECT DISTINCT family FROM `' . _DB_PREFIX_ . 'pixel_audit_event`', true, false);
+            if ($families === false) {
+                throw new \RuntimeException('Cannot list audit families.');
             }
-            $interval = $cases === '' ? (string) $days : '(CASE e.family' . $cases . ' ELSE ' . $days . ' END)';
-            $rows = $db->executeS('SELECT e.id_event, e.id_operation FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e INNER JOIN `' . _DB_PREFIX_ . 'pixel_audit_operation` o ON o.id_operation = e.id_operation WHERE o.date_add < DATE_SUB(UTC_TIMESTAMP(), INTERVAL ' . $minimumDays . ' DAY) AND o.date_add < DATE_SUB(UTC_TIMESTAMP(), INTERVAL ' . $interval . ' DAY) ORDER BY o.date_add, e.id_event LIMIT ' . $batchSize . ' FOR UPDATE', true, false);
-            if ($rows === false) {
-                throw new \RuntimeException('Cannot select expired audit events.');
+            // One indexed range per family, bounded by its own retention: events that a longer retention keeps are never read.
+            $rows = [];
+            $bounds = [];
+            foreach (array_column($families, 'family') as $family) {
+                if (count($rows) >= $batchSize) {
+                    break;
+                }
+                $override = (int) ($settings['retention'][$family] ?? 0);
+                $retention = $override > 0 ? max(1, min(3650, $override)) : $days;
+                $expired = 'o.date_add < DATE_SUB(UTC_TIMESTAMP(), INTERVAL ' . $retention . ' DAY)';
+                // Operation ids grow with their date: the newest expired operation bounds the range of the family index.
+                $bounds[$retention] ??= (int) $db->getValue('SELECT MAX(o.id_operation) FROM `' . _DB_PREFIX_ . 'pixel_audit_operation` o WHERE ' . $expired, false);
+                if ($bounds[$retention] === 0) {
+                    continue;
+                }
+                $expiredRows = $db->executeS('SELECT e.id_event, e.id_operation FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e INNER JOIN `' . _DB_PREFIX_ . 'pixel_audit_operation` o ON o.id_operation = e.id_operation WHERE e.family = "' . pSQL($family) . '" AND e.id_operation <= ' . $bounds[$retention] . ' AND ' . $expired . ' ORDER BY e.id_operation, e.id_event LIMIT ' . ($batchSize - count($rows)) . ' FOR UPDATE', true, false);
+                if ($expiredRows === false) {
+                    throw new \RuntimeException('Cannot select expired audit events.');
+                }
+                $rows = array_merge($rows, $expiredRows);
             }
             if ($rows) {
                 $ids = implode(',', array_map('intval', array_column($rows, 'id_event')));
@@ -191,10 +203,11 @@ final class Repository
 
     /**
      * Every purge category, each within its own budget of bounded transactions.
+     * The orphan repair reads every operation header: the automatic purge of a web request skips it.
      *
      * @return array{events:int, hidden:int, tickets:int, orphans:int}
      */
-    public function purgeAll(int $batchSize, int $maxBatches): array
+    public function purgeAll(int $batchSize, int $maxBatches, bool $orphans = true): array
     {
         $removed = ['events' => 0, 'hidden' => 0, 'tickets' => 0, 'orphans' => 0];
         for ($i = 0; $i < $maxBatches; ++$i) {
@@ -212,7 +225,7 @@ final class Repository
                 break;
             }
         }
-        for ($i = 0; $i < $maxBatches; ++$i) {
+        for ($i = 0; $orphans && $i < $maxBatches; ++$i) {
             $count = $this->purgeOrphanOperations($batchSize);
             $removed['orphans'] += $count;
             if ($count < $batchSize) {
@@ -322,10 +335,18 @@ final class Repository
         return $where;
     }
 
-    /** Emptied operation headers are removed by the orphan purge. */
+    /** Emptied operation headers go with their events; the orphan purge of the command repairs an interrupted erasure. */
     public function erasePersonalData(int $customerId, array $addressIds): void
     {
-        $this->execute('DELETE e FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e WHERE ' . $this->personalScope($customerId, $addressIds));
+        $scope = $this->personalScope($customerId, $addressIds);
+        $operations = Db::getInstance()->executeS('SELECT DISTINCT e.id_operation FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e WHERE ' . $scope, true, false);
+        if ($operations === false) {
+            throw new \RuntimeException('Cannot read personal audit operations.');
+        }
+        $this->execute('DELETE e FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e WHERE ' . $scope);
+        foreach (array_chunk(array_map('intval', array_column($operations, 'id_operation')), 1000) as $ids) {
+            $this->execute('DELETE o FROM `' . _DB_PREFIX_ . 'pixel_audit_operation` o WHERE o.id_operation IN (' . implode(',', $ids) . ') AND NOT EXISTS (SELECT 1 FROM `' . _DB_PREFIX_ . 'pixel_audit_event` e WHERE e.id_operation = o.id_operation)');
+        }
     }
 
     public function personalData(int $customerId, array $addressIds): array
